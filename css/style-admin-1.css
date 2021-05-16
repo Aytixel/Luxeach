@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: cooperhewitt-normal;
+    color: #717171;
+}
+
+/* body */
+.body {
+    margin: 0px auto;
+    
+    width: 75%;
+}
+
+.body .in {margin-left: -5px;}
+
+/* login */
+.login {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    
+    width: 100%;
+}
+
+.login .title {
+    width: calc(100% + 10px);
+    
+    padding: 5px 0px;
+    
+    text-align: center;
+    
+    border-bottom: 2.5px solid #00E8F3;
+}
+
+.login .login-form {margin-top: 5%;}
+
+.login input {font-size: 17.5px;}
+
+.login .text {
+    margin-top: 2%;
+    
+    height: 27.5px;
+    width: 100%;
+    
+    padding: 0px 5px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+    
+    border-radius: 0;
+    border: none;
+    border-bottom: 2.5px solid #00E8F3;
+
+    background-color: transparent;
+}
+
+.login .button {
+    margin-top: 2%;
+    
+    height: 27.5px;
+    width: calc(100% + 10px);
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    outline: none;
+    
+    border-radius: 0;
+    border: none;
+    border-bottom: 2.5px solid #00E8F3;
+    
+    cursor: pointer;
+    
+    background-color: transparent;
+}

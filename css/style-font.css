@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'cooperhewitt-normal';
+    src: url('../ressources/font/CooperHewitt/cooperhewitt-book-webfont.woff2') format('woff2'),
+         url('../ressources/font/CooperHewitt/cooperhewitt-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cooperhewitt-light';
+    src: url('../ressources/font/CooperHewitt/cooperhewitt-light-webfont.woff2') format('woff2'),
+         url('../ressources/font/CooperHewitt/cooperhewitt-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cooperhewitt-bold';
+    src: url('../ressources/font/CooperHewitt/cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('../ressources/font/CooperHewitt/cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

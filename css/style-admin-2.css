@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: cooperhewitt-normal;
+    color: #717171;
+}
+
+/* body */
+.body {
+    margin: 0px auto;
+    
+    width: 75%;
+}
+
+.body .in {margin-left: -5px;}
+
+/* verification */
+.verification {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    width: 100%;
+}
+
+.verification .title {
+    width: calc(100% + 10px);
+    
+    padding: 5px 0px;
+    
+    text-align: center;
+    
+    border-bottom: 2.5px solid #00E8F3;
+}
+
+.verification .verification-form {
+    margin-top: 5%;
+    
+    width: calc(100% + 10px);
+    height: 400px;
+    
+    list-style-type: none;
+    
+    overflow: hidden;
+    
+    border-bottom: 2.5px solid #00E8F3;
+}
+
+/* verification page */
+.verification .page {
+    margin-top: 1%;
+    
+    padding: 5px;
+    
+    border-bottom: 2.5px solid #00E8F3;
+}
+
+.verification .page a {text-decoration: none;}
+
+/* returns */
+.success, .warning, .error {
+    margin-top: 2%;
+    
+    height: 27.5px;
+    width: 100%;
+    
+    padding: 0px 5px;
+    
+    text-align: center;
+}
+
+.success {border-bottom: 2.5px solid #53ff1c;}
+
+.warning {border-bottom: 2.5px solid #FF9A21;}
+
+.error {border-bottom: 2.5px solid #FF2828;}
+
+/* accept refuse */
+.accept, .refuse {
+    float: right;
+    
+    height: 20px;
+    width: 20px;
+}
+
+.accept::before, .accept::after, .refuse::before, .refuse::after {
+    display: inline-block;
+    
+    content: '';
+}
+
+/* accept */
+.accept {margin-right: 10px;}
+
+.accept::before, .accept::after {background-color: #53ff1c;}
+
+.accept::before {
+    -webkit-transform: translate(-2px, -2px) rotate(45deg);
+    transform: translate(-2px, -2px) rotate(45deg);
+    
+    height: 2.5px;
+    width: 10px;
+    
+    content: '';
+}
+
+.accept::after {
+    -webkit-transform: translate(2px, -26px) rotate(-45deg);
+    transform: translate(2px, -26px) rotate(-45deg);
+    
+    height: 2.5px;
+    width: 20px;
+}
+
+/* refuse */
+.refuse::before, .refuse::after {
+    height: 2.5px;
+    width: 20px;
+    
+    content: '';
+    
+    background-color: #FF2828;
+}
+
+.refuse::before {
+    -webkit-transform: translateY(-6px) rotate(45deg);
+    transform: translateY(-6px) rotate(45deg);
+}
+
+.refuse::after {
+    -webkit-transform: translateY(-26px) rotate(-45deg);
+    transform:  translateY(-26px) rotate(-45deg);
+}

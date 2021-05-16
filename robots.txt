@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: *error.htm
+Disallow: *admin-panel.php
+Disallow: /extensions/
+Disallow: /php/
+Disallow: /python/
+Disallow: /ressources/
+Disallow: *at-start-of-server
+Disallow: *bloc-note
+Allow: /

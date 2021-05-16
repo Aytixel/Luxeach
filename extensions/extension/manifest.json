@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Luxeach",
+    "version": "1.0",
+    "description": "C'est une petite extension pour aider le site Luxeach.tk à enregistrer de nouveaux site. Cette extension est complètement anonyme.",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "96" : "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
